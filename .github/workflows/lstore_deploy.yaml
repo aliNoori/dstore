@@ -1,0 +1,38 @@
+name: DStore Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo rsync -av --exclude='.git' --exclude='django_debug.log' ./ /var/www/store/public_html/dstore
+          cd /var/www/store/public_html
+          python3.12 -m venv .env          
+          source .env/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run migrations
+        run: |
+          cd /var/www/store/public_html/dstore
+          python manage.py migrate   
+
+      - name: Setting wsgi and apache
+        run: |
+          sudo chmod -R 775 /var/www/store/public_html/dstore
+          sudo chown -R www-data:www-data /var/www/store/public_html/dstore
+          sudo a2dissite store.laravel.local.conf
+          sudo a2ensite store.python.local.conf
+          sudo a2enmod wsgi
+          sudo systemctl restart apache2
+
+      - name: Check application health
+        run: curl -f http://188.211.204.175/health-check
