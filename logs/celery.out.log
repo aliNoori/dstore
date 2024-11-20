@@ -1,0 +1,3302 @@
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:17:20
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1225ad00440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:17:21
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2024207d0a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:52:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x22de2e29010
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:52:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x22a34cb0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:55:47
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2aff9b3cf50
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 19:55:47
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2346d69d340
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:05:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x211b151e120
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:05:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x18533128e90
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2dccc26cb60
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x19f6ab88d40
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2783c1bd550
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x290145fcd10
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x18f793d0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x25e1a1ce1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x272ac069730
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2993588d550
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x20069219190
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x250448ed040
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x248f7a9cf50
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x127d2d80440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x175b565e1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-10-31 20:07:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x23ad4839760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21a9b120440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1d78d1d8440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1a7052096d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:15
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1cf98e7cbc0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:15
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x19a0ea1cb90
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1d2b734a270
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:26:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21ea9bcd1c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21fdfb6d430
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1349270c8f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x24c56f0d0a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1e69af48dd0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1c52f288e90
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2d7428be120
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1d66d8fd4f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21bb968d6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1dd5084c9e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16b13826ed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2703aa7d6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1bd20b5d730
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2e321d66ed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:27:49
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2467ded8ce0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x274beae0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16db0bce1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x269a066d4c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2998311ccb0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16a1856d430
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2011fc6d7c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:29:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1d49dd79070
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1c5a3566ed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1be7ff19610
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2cc30eed4f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x15bf4168bf0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x24f11d7d6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1e5478c0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:33:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1380ad8d4f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x201f2fd9760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21ddc010440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:10
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1921a0c8a10
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2240422d220
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1e733c8cc80
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x262055396a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 18:59:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1e95618e060
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:51:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1afaf6ed6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:51:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x26061020440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:52:00
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1c5ff2ee300
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:51:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1a1a472cb00
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:52:01
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1e62107c8f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:52:00
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2943e79eed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 20:52:01
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2756a14cda0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x266d95fd7c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1d8fa77d1f0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x28237d3e1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2a42f308440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x18afa068440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x29e3a7ad760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:02:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x279016c9670
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x204b4d7d850
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1661b52d340
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x167d1380440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2c639f2d6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1fe643cce00
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x267b861e1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 21:20:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2232587d1c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:21
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21fb9d70440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:24
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x20ac862d100
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:24
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2113365cb60
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1a241d4cd70
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x25a531d0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x201bf1ce300
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:24:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16d6e5ea390
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x209fe6a0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x27103e5ca40
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21d6e57e210
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x26fb09b8bf0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x236d10ad640
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x17983efcd70
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:29:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1c335edd760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x24a3491d610
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x205ccb00440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x299c44bd670
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x19d848acc80
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x24c4fcad160
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1ba4108eed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:31:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x238683f9700
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x157ad6e0440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x17b01cccad0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16665bdd820
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x22b72fad4c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2983b35e120
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1de705cd2e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:33:06
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1de092ccb90
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2c678c2d6a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1599858ca70
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2474cb9d220
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x2c9be80a2d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x27a83e797c0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1af35826ed0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-01 22:34:58
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x172e801cf80
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x13cf80bdf70
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> charge_wallet    exchange=charge_wallet(direct) key=charge_wallet
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x16a79368440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> add_score        exchange=add_score(direct) key=add_score
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x19c28938440
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> gift_to_user     exchange=gift_to_user(direct) key=gift_to_user
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x18c0768d640
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> high_value_order exchange=high_value_order(direct) key=high_value_order
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x21edb54e1e0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> lottery          exchange=lottery(direct) key=lottery
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x20bf228cbc0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> send_notification exchange=send_notification(direct) key=send_notification
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
+ 
+ -------------- celery@DESKTOP-PMPOFJD v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2024-11-05 13:34:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         dstore:0x1a0fbe2d6a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (solo)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> apply_coupon     exchange=apply_coupon(direct) key=apply_coupon
+                
+
+[tasks]
+  . dstore.celery.debug_task
+  . users.tasks.add_gift_to_user
+  . users.tasks.add_score
+  . users.tasks.add_user_to_lottery
+  . users.tasks.apply_coupon
+  . users.tasks.charge_wallet
+  . users.tasks.handle_high_value_order
+  . users.tasks.send_payment_notification
+
