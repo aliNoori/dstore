@@ -112,13 +112,24 @@ WSGI_APPLICATION = 'dstore.wsgi.application'
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-} """
+}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'store.local.python',  # نام دیتابیس شما
         'USER': 'root',       # نام کاربری MySQL
         'PASSWORD': '',   # رمز عبور MySQL
+        'HOST': '127.0.0.1',           # آدرس سرور دیتابیس (در صورت نیاز به استفاده از سرورهای راه دور، آدرس صحیح وارد شود)
+        'PORT': '3306',                # پورت MySQL (پورت پیش‌فرض MySQL 3306 است)
+    }
+}"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'store_local_python',  # نام دیتابیس شما
+        'USER': 'root',       # نام کاربری MySQL
+        'PASSWORD': 'ame@6558U',   # رمز عبور MySQL
         'HOST': '127.0.0.1',           # آدرس سرور دیتابیس (در صورت نیاز به استفاده از سرورهای راه دور، آدرس صحیح وارد شود)
         'PORT': '3306',                # پورت MySQL (پورت پیش‌فرض MySQL 3306 است)
     }
