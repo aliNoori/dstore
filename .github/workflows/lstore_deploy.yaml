@@ -22,7 +22,7 @@ jobs:
 
       - name: Run migrations
         run: |
-          cd /var/www/store/public_html/dstore
+          cd /var/www/store/public_html/dstore/dstore
           python3.12 manage.py migrate   
 
       - name: Setting wsgi and apache
