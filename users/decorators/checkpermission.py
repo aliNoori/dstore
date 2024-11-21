@@ -13,12 +13,12 @@ def hasPermission(permission):
 
         @wraps(view_func)
         def dispatch_wrapper(self, request, *args, **kwargs):
-            # بررسی احراز هویت
-            if not request.user or not request.user.is_authenticated:
+            # بررسی احراز هویت با استفاده از request.auth (توکن)
+            if not request.auth:  # اگر توکن در درخواست وجود نداشت
                 raise NotAuthenticated(detail="Authentication required")
 
-            # بررسی دسترسی
-            if not request.user.has_perm(permission):
+            # بررسی دسترسی کاربر بر اساس permission
+            if not request.user.has_perm(permission):  # اگر کاربر مجوز لازم را نداشت
                 raise PermissionDenied(detail="Access denied")
 
             # ادامه اجرای view اصلی
