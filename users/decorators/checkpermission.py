@@ -1,6 +1,6 @@
 from functools import wraps
 from rest_framework.views import APIView
-from rest_framework.exceptions import PermissionDenied, NotAuthenticated
+from django.http import JsonResponse
 
 def hasPermission(permission):
     def decorator(view_func):
@@ -13,17 +13,16 @@ def hasPermission(permission):
 
         @wraps(view_func)
         def dispatch_wrapper(self, request, *args, **kwargs):
-            # بررسی احراز هویت
-            if not hasattr(request, 'auth') or request.auth is None:
-                if not request.user or not request.user.is_authenticated:
-                    raise NotAuthenticated(detail="Authentication required")
 
-            # بررسی دسترسی
-            if not request.user.has_perm(permission):
-                raise PermissionDenied(detail="Access denied")
+            if request.user.is_authenticated:
 
-            # ادامه اجرای view اصلی
-            return original_dispatch(self, request, *args, **kwargs)
+                if request.user.has_perm(permission):
+                    
+                    return original_dispatch(self, request, *args, **kwargs)
+                else:
+                    return JsonResponse({'detail': 'Access denied'}, status=403)
+            else:
+                return JsonResponse({'detail': 'Authentication required'}, status=401)
 
         view_func.dispatch = dispatch_wrapper
         return view_func
