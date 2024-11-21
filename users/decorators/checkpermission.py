@@ -1,6 +1,7 @@
 from functools import wraps
 from rest_framework.views import APIView
 from django.http import JsonResponse
+from rest_framework.permissions import IsAuthenticated
 
 def hasPermission(permission):
     def decorator(view_func):
@@ -14,7 +15,11 @@ def hasPermission(permission):
         @wraps(view_func)
         def dispatch_wrapper(self, request, *args, **kwargs):
 
+            ########user be login
+            permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
+
             print(request.user)
+
 
             if request.user.is_authenticated:
 
