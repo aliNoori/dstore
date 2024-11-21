@@ -14,6 +14,8 @@ def hasPermission(permission):
         @wraps(view_func)
         def dispatch_wrapper(self, request, *args, **kwargs):
 
+            print(request.user)
+
             if request.user.is_authenticated:
 
                 if request.user.has_perm(permission):
