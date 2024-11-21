@@ -14,7 +14,9 @@ from products.serializers.category import CategoryResource, CreateUpdateCategory
 from products.serializers.createupdate import CreateUpdateProductFormSerializer
 
 from products.serializers.productresource import ProductResource
+from users.decorators.checkpermission import hasPermission
 
+@hasPermission('editor')
 class ProductCreateView(APIView):
 
     ########user be login
@@ -36,7 +38,9 @@ class ProductCreateView(APIView):
             # }, status=status.HTTP_201_CREATED)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
+
+
 class ProductShowView(APIView):
 
     #permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -54,6 +58,7 @@ class ProductShowView(APIView):
         except Product.DoesNotExist:
             return Response({'error': 'Product not found'}, status=status.HTTP_404_NOT_FOUND) 
 
+@hasPermission('editor')
 class ProductUpdateView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -84,7 +89,7 @@ class ProductsListView(APIView):
         product_data = ProductResource(products, many=True).data
         return Response({"data":product_data}, status=status.HTTP_200_OK)  
 
-
+@hasPermission('editor')
 class ProductDeleteView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -107,7 +112,7 @@ class ProductDeleteView(APIView):
 
 
 ###############################  CATEGORY  ##########################
-
+@hasPermission('admin')
 class CategoryCreateView(APIView):
 
     ########user be login
@@ -130,7 +135,7 @@ class CategoryCreateView(APIView):
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
+@hasPermission('admin')
 class CategoryUpdateView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -180,7 +185,7 @@ class CategoriesListView(APIView):
         categories_data = CategoryResource(categories, many=True).data
         return Response({"data":categories_data}, status=status.HTTP_200_OK)  
 
-
+@hasPermission('admin')
 class CategoryDeleteView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
