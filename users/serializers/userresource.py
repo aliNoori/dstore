@@ -54,6 +54,6 @@ class UserResource(serializers.ModelSerializer):
     def get_roles(self, obj):
         # بازگرداندن لیست گروه‌های کاربر
         #return [{'id': group.id, 'name': group.name} for group in obj.groups.all()]
-        return [{group.name} for group in obj.groups.all()]
+        return [group.name for group in obj.groups.all()]
 
 
