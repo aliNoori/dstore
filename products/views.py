@@ -16,7 +16,7 @@ from products.serializers.createupdate import CreateUpdateProductFormSerializer
 from products.serializers.productresource import ProductResource
 from users.decorators.checkpermission import hasPermission
 
-@hasPermission('editor')
+@hasPermission('create')
 class ProductCreateView(APIView):
 
     ########user be login
@@ -58,7 +58,7 @@ class ProductShowView(APIView):
         except Product.DoesNotExist:
             return Response({'error': 'Product not found'}, status=status.HTTP_404_NOT_FOUND) 
 
-@hasPermission('editor')
+@hasPermission('update')
 class ProductUpdateView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -89,7 +89,7 @@ class ProductsListView(APIView):
         product_data = ProductResource(products, many=True).data
         return Response({"data":product_data}, status=status.HTTP_200_OK)  
 
-@hasPermission('editor')
+@hasPermission('delete')
 class ProductDeleteView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -112,7 +112,7 @@ class ProductDeleteView(APIView):
 
 
 ###############################  CATEGORY  ##########################
-@hasPermission('admin')
+@hasPermission('create')
 class CategoryCreateView(APIView):
 
     ########user be login
@@ -135,7 +135,7 @@ class CategoryCreateView(APIView):
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@hasPermission('admin')
+@hasPermission('update')
 class CategoryUpdateView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
@@ -185,7 +185,7 @@ class CategoriesListView(APIView):
         categories_data = CategoryResource(categories, many=True).data
         return Response({"data":categories_data}, status=status.HTTP_200_OK)  
 
-@hasPermission('admin')
+@hasPermission('delete')
 class CategoryDeleteView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
