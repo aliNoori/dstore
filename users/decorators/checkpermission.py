@@ -2,7 +2,7 @@ from functools import wraps
 from rest_framework.views import APIView
 from django.http import JsonResponse
 
-def has_permission(permission):
+def hasPermission(permission):
     def decorator(view_func):
         # بررسی اینکه دکوراتور فقط برای کلاس‌های APIView استفاده می‌شود
         if not isinstance(view_func, type) or not issubclass(view_func, APIView):
