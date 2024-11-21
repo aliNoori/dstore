@@ -34,6 +34,7 @@ from users.views.mycoupons import MyCouponsView
 from users.views.myscores import MyScoresView
 from users.views.mywallet import MyWalletView
 from users.views.myorders import MyOrdersView
+from users.views.rolepermission import ToggleGroup
 from users.views.useraddupdateaddress import UserAddAddressView,UserUpdateAddressView
 from users.views.usercreate import UserCreateView
 from users.views.userdelete import UserDeleteView
@@ -56,7 +57,7 @@ urlpatterns = [
     # Routes with middleware (authentication required)
     path('api/user/profile', UserProfileView.as_view(), name='profile_user'),
     path('api/user/logout', UserLogoutView.as_view(), name='logout_user'),
-    path('api/user/users', UserListView.as_view(), name='list_users'),
+    path('api/user/users/list', UserListView.as_view(), name='list_users'),
     path('api/user/show/<int:id>', UserShowView.as_view(), name='show_user'),
     path('api/user/update/<int:id>', UserUpdateView.as_view(), name='update_user'),
     path('api/user/delete/<int:id>', UserDeleteView.as_view(), name='delete_user'),
@@ -145,6 +146,8 @@ urlpatterns = [
     path('api/onlineMethodGateway/update/<int:id>', UpdatePaymentGatewayView.as_view(), name='update_onlineMethod'),
     path('api/onlineMethodGateway/list', PaymentGatewayListView.as_view(), name='list_onlineMethod'),
 
+    ####################     PERMISSIONS  API    ##################
+    path('api/permissionRoleSetting/toggleRoles/<str:email>', ToggleGroup.as_view(), name='add_user_to_group'),
 
 ]
 
