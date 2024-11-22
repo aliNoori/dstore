@@ -16,6 +16,7 @@ from products.serializers.createupdate import CreateUpdateProductFormSerializer
 from products.serializers.productresource import ProductResource
 from users.decorators.checkpermission import hasPermission
 
+permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 @hasPermission('create')
 class ProductCreateView(APIView):
 
