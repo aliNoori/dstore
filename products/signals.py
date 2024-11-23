@@ -12,13 +12,11 @@ ROLES_AND_PERMISSIONS = {
 
 @receiver(post_migrate)
 def create_roles_and_permissions(sender, **kwargs):
+
+    # فقط اپلیکیشن users را هدف قرار دهید
+    if sender.name != "products":
+        return
     content_type = ContentType.objects.get_for_model(Product)
-
-    # حذف پرمیژن‌ها و پاک‌سازی گروه‌ها
-    Permission.objects.filter(content_type=content_type).delete()
-    for group in Group.objects.all():
-        group.permissions.clear()
-
     # ایجاد نقش‌ها و پرمیژن‌ها
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
         group, _ = Group.objects.get_or_create(name=role_name)
