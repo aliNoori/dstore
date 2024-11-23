@@ -17,13 +17,14 @@ from products.serializers.productresource import ProductResource
 from users.decorators.checkpermission import hasPermission
 
 
-@hasPermission('create')
+#@hasPermission('create')
 class ProductCreateView(APIView):
 
     ########user be login
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 
     def post(self, request):
+        print(request.user)
         serializer = CreateUpdateProductFormSerializer(data=request.data)
         if serializer.is_valid():
 
