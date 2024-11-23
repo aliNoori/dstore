@@ -25,6 +25,7 @@ jobs:
           cd /var/www/store/public_html
           source .env/bin/activate
           cd dstore
+          python3.12 manage.py shell
           python3.12 manage.py migrate   
 
       - name: Setting wsgi and apache
