@@ -9,7 +9,7 @@ class PermissionMixin:
             return Response({'detail': 'Authentication required'}, status=status.HTTP_401_UNAUTHORIZED)
         if not self.required_permission:
             return None
-        print(self.required_permission)
+        
         if not request.user.has_perm(self.required_permission):
             return Response({'detail': 'Access denied'}, status=status.HTTP_403_FORBIDDEN)
         return None
