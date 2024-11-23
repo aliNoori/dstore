@@ -4,8 +4,7 @@ from django.db.models.signals import post_migrate
 from django.dispatch import receiver
 from django.contrib.auth.models import Group, Permission
 from django.contrib.contenttypes.models import ContentType
-from users.models.customuser import CustomUser
-
+from products.models.product import Product
         
 ROLES_AND_PERMISSIONS = {
     'admin': ['edit', 'read', 'delete', 'create'],
@@ -15,17 +14,18 @@ ROLES_AND_PERMISSIONS = {
 
 @receiver(post_migrate)
 def create_roles_and_permissions(sender, **kwargs):
-
-    content_type = ContentType.objects.get_for_model(CustomUser)
+    
+    content_type = ContentType.objects.get_for_model(Product)
     Permission.objects.filter(content_type=content_type).delete()
 
     for group in Group.objects.all():
         group.permissions.clear()
 
-    content_type = ContentType.objects.get_for_model(CustomUser)
+
+    content_type = ContentType.objects.get_for_model(Product)
 
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
-
+        
         group, created = Group.objects.get_or_create(name=role_name)
 
         for permission_codename in permissions:
