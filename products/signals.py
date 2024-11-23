@@ -12,6 +12,10 @@ ROLES_AND_PERMISSIONS = {
 
 @receiver(post_migrate)
 def create_roles_and_permissions(sender, **kwargs):
+
+    # فقط اپلیکیشن users را هدف قرار دهید
+    if sender.name != "products":
+        return
     content_type = ContentType.objects.get_for_model(Product)
     # ایجاد نقش‌ها و پرمیژن‌ها
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
