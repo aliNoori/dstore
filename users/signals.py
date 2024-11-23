@@ -18,10 +18,6 @@ def create_roles_and_permissions(sender, **kwargs):
 
     content_type = ContentType.objects.get_for_model(CustomUser)
 
-    # حذف پرمیژن‌ها و پاک‌سازی گروه‌ها
-    Permission.objects.filter(content_type=content_type).delete()
-    Group.objects.all().update(permissions=None)
-
     # ایجاد پرمیژن‌ها و تخصیص آن‌ها به نقش‌ها
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
         group, _ = Group.objects.get_or_create(name=role_name)  # ایجاد یا پیدا کردن گروه
