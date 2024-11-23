@@ -17,7 +17,10 @@ ROLES_AND_PERMISSIONS = {
 @receiver(post_migrate)
 
 def create_roles_and_permissions(sender, **kwargs):
+    
     content_type = ContentType.objects.get_for_model(Product)
+
+    print(content_type)
 
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
         # ایجاد یا پیدا کردن نقش
@@ -32,5 +35,6 @@ def create_roles_and_permissions(sender, **kwargs):
                     'content_type': content_type,
                 }
             )
+            print(permission)
             # تخصیص مجوز به نقش
             group.permissions.add(permission)
