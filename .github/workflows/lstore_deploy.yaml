@@ -37,4 +37,4 @@ jobs:
           sudo systemctl restart apache2
 
       - name: Check application health
-        run: curl -f http://2.181.217.52/health-check
+        run: curl -f http://151.247.108.104/health-check
