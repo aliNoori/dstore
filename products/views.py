@@ -17,15 +17,15 @@ from products.serializers.productresource import ProductResource
 from users.decorators.checkpermission import PermissionMixin
 
 
-#@hasPermission('create')
+
 class ProductCreateView(PermissionMixin, APIView):
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
     required_permission = 'create'  # تعیین دسترسی مورد نیاز
 
     def post(self, request):
-        
+
          # بررسی دسترسی‌ها
-        permission_response = self.check_permission(request)
+        permission_response = self.hasPermission(request)
         if permission_response:
             return permission_response
         
