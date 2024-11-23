@@ -4,6 +4,7 @@ from django.db.models.signals import post_migrate
 from django.dispatch import receiver
 from django.contrib.auth.models import Group, Permission
 from django.contrib.contenttypes.models import ContentType
+from products.models.product import Product
 from users.models.customuser import CustomUser
 
         
@@ -16,7 +17,7 @@ ROLES_AND_PERMISSIONS = {
 @receiver(post_migrate)
 
 def create_roles_and_permissions(sender, **kwargs):
-    content_type = ContentType.objects.get_for_model(CustomUser)
+    content_type = ContentType.objects.get_for_model(Product)
 
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
         # ایجاد یا پیدا کردن نقش
