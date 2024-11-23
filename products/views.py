@@ -23,6 +23,11 @@ class ProductCreateView(PermissionMixin, APIView):
     required_permission = 'products.create'  # تعیین دسترسی مورد نیاز
 
     def post(self, request):
+
+        print(request.user)
+        print(request.user.get_all_permissions())
+        print(request.user.has_perm('products.create'))
+
          # بررسی دسترسی‌ها
         permission_response = self.hasPermission(request)
         if permission_response:
