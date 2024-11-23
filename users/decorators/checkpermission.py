@@ -1,30 +1,14 @@
-from functools import wraps
-from rest_framework.views import APIView
-from django.http import JsonResponse
+from rest_framework.response import Response
+from rest_framework import status
 
-def hasPermission(permission):
-    def decorator(view_func):
-        # بررسی اینکه دکوراتور فقط برای کلاس‌های APIView استفاده می‌شود
-        if not isinstance(view_func, type) or not issubclass(view_func, APIView):
-            raise TypeError("The @hasPermission decorator can only be applied to APIView classes.")
+class PermissionMixin:
+    required_permission = None
 
-        # تزئین متد dispatch برای مدیریت درخواست‌ها
-        original_dispatch = view_func.dispatch
-
-        @wraps(view_func)
-        def dispatch_wrapper(self, request, *args, **kwargs):
-            
-            if request.user.is_authenticated:
-
-                if request.user.has_perm(permission):
-                    
-                    return original_dispatch(self, request, *args, **kwargs)
-                else:
-                    return JsonResponse({'detail': 'Access denied'}, status=403)
-            else:
-                return JsonResponse({'detail': 'Authentication required'}, status=401)
-
-        view_func.dispatch = dispatch_wrapper
-        return view_func
-
-    return decorator
+    def check_permission(self, request):
+        if not request.user.is_authenticated:
+            return Response({'detail': 'Authentication required'}, status=status.HTTP_401_UNAUTHORIZED)
+        if not self.required_permission:
+            return None
+        if not request.user.has_perm(self.required_permission):
+            return Response({'detail': 'Access denied'}, status=status.HTTP_403_FORBIDDEN)
+        return None
