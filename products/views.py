@@ -23,7 +23,12 @@ class ProductCreateView(PermissionMixin, APIView):
     required_permission = 'create'  # تعیین دسترسی مورد نیاز
 
     def post(self, request):
-        print(request.user)
+        
+         # بررسی دسترسی‌ها
+        permission_response = self.check_permission(request)
+        if permission_response:
+            return permission_response
+        
         serializer = CreateUpdateProductFormSerializer(data=request.data)
         if serializer.is_valid():
 
