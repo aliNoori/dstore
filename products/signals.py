@@ -12,10 +12,7 @@ ROLES_AND_PERMISSIONS = {
 
 @receiver(post_migrate)
 def create_roles_and_permissions(sender, **kwargs):
-    # مطمئن شوید که سیگنال فقط برای اپلیکیشن users اجرا شود
-    if sender.name != "products":
-        return
-
+    
     content_type = ContentType.objects.get_for_model(Product)
 
     # ایجاد پرمیژن‌ها و تخصیص آن‌ها به نقش‌ها
