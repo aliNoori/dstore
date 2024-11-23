@@ -12,14 +12,20 @@ ROLES_AND_PERMISSIONS = {
 
 @receiver(post_migrate)
 def create_roles_and_permissions(sender, **kwargs):
-
-    # فقط اپلیکیشن users را هدف قرار دهید
+    # مطمئن شوید که سیگنال فقط برای اپلیکیشن users اجرا شود
     if sender.name != "products":
         return
+
     content_type = ContentType.objects.get_for_model(Product)
-    # ایجاد نقش‌ها و پرمیژن‌ها
+
+    # حذف پرمیژن‌ها و پاک‌سازی گروه‌ها
+    Permission.objects.filter(content_type=content_type).delete()
+    Group.objects.all().update(permissions=None)
+
+    # ایجاد پرمیژن‌ها و تخصیص آن‌ها به نقش‌ها
     for role_name, permissions in ROLES_AND_PERMISSIONS.items():
-        group, _ = Group.objects.get_or_create(name=role_name)
+        group, _ = Group.objects.get_or_create(name=role_name)  # ایجاد یا پیدا کردن گروه
+        print(f"Processing group: {role_name}")
         for permission_codename in permissions:
             permission, created = Permission.objects.get_or_create(
                 codename=permission_codename,
@@ -30,4 +36,4 @@ def create_roles_and_permissions(sender, **kwargs):
             )
             if created:
                 print(f"Permission {permission_codename} created for group {role_name}.")
-            group.permissions.add(permission)
+            group.permissions.add(permission)  # تخصیص پرمیژن به گروه
