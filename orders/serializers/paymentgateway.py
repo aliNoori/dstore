@@ -64,6 +64,8 @@ class PaymentGatewaySerializer(serializers.ModelSerializer):
 
            # ذخیره تصویر جدید
            File.objects.create(paymentGateway=instance, file=image)
-    
+
+        # ذخیره تغییرات در مدل
+       instance.save()
 
        return instance
