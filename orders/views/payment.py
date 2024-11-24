@@ -50,7 +50,8 @@ class ProcessPaymentView(APIView):
             return Response({"message": "Unsupported payment gateway"}, status=status.HTTP_400_BAD_REQUEST)
 
         ##callback_url = 'http://127.0.0.1:8000/api/callback/payment/'
-        callback_url='http://192.168.1.100:8000/api/callback/payment/'
+        ##callback_url='http://192.168.1.100:8000/api/callback/payment/'
+        callback_url='http://192.168.1.105/api/callback/payment/'
 
         # استفاده از تابع payment برای انجام پرداخت
         try:
@@ -203,7 +204,8 @@ class CallbackPaymentView(APIView):
         query_params = {'error': error_message} if error_message else {}
         query_params.update(transaction_data)
         ##url = 'http://localhost:3000/your-transaction-receive'
-        url='http://192.168.1.100/your-transaction-receive'
+        #url='http://192.168.1.100/your-transaction-receive'
+        url='http://192.168.1.105/your-transaction-receive'
         redirect_url = f"{url}?{urlencode(query_params)}"
 
         return HttpResponseRedirect(redirect_url)
