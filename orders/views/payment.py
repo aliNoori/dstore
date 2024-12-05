@@ -205,6 +205,7 @@ class CallbackPaymentView(APIView):
         query_params.update(transaction_data)
         ##url = 'http://localhost:3000/your-transaction-receive'
         url='http://192.168.1.100/your-transaction-receive'
+        
         redirect_url = f"{url}?{urlencode(query_params)}"
 
         return HttpResponseRedirect(redirect_url)
