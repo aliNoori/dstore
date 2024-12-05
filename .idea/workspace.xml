@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="057a78b6-0f19-4aa9-85da-e8331a09aa34" name="Changes" comment="first commit" />
+    <list default="true" id="057a78b6-0f19-4aa9-85da-e8331a09aa34" name="Changes" comment="correct version python for migrate">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/views/payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views/payment.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/store.local/public_html/dstore",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/store.local/public_html/dstore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\store.local\public_html\dstore" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +62,9 @@
       <workItem from="1731506539191" duration="3334000" />
       <workItem from="1731513238758" duration="2637000" />
       <workItem from="1731943595696" duration="1321000" />
+      <workItem from="1732109015805" duration="5542000" />
+      <workItem from="1732878497604" duration="601000" />
+      <workItem from="1732881406593" duration="1182000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="setting for repository">
       <option name="closed" value="true" />
@@ -66,7 +80,49 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
       <updated>1731516139810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎−۰۰۰۰۳" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1732109166228</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1732109166228</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۴" summary="set yaml for deploy">
+      <option name="closed" value="true" />
+      <created>1732111371990</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1732111371990</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۵" summary="correct version python for migrate">
+      <option name="closed" value="true" />
+      <created>1732111552921</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1732111552921</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۶" summary="correct version python for migrate">
+      <option name="closed" value="true" />
+      <created>1732111701390</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
+      <updated>1732111701390</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۷" summary="correct version python for migrate">
+      <option name="closed" value="true" />
+      <created>1732111929169</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1732111929169</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۸" summary="correct version python for migrate">
+      <option name="closed" value="true" />
+      <created>1732112143185</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1732112143185</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting for repository" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="set yaml for deploy" />
+    <MESSAGE value="correct version python for migrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct version python for migrate" />
   </component>
 </project>
