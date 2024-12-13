@@ -69,9 +69,8 @@ class CreateUpdateProductFormSerializer(serializers.ModelSerializer):
             File.objects.create(product=instance, file=image)
 
         # مدیریت دسته‌بندی
-        category_data = validated_data.get('category', None)
-        if category_data:
-            category = Category.objects.get(id=category_data['id'])
+        category = validated_data['category']
+        if category:
             instance.category = category
 
         instance.save()
