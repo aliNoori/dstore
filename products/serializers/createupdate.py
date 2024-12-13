@@ -56,6 +56,7 @@ class CreateUpdateProductFormSerializer(serializers.ModelSerializer):
         instance.stock = validated_data.get('stock', instance.stock)
         instance.description = validated_data.get('description', instance.description)
         instance.sku = validated_data.get('sku', instance.sku)
+        instance.discount=validated_data.get('discount', instance.discount)
 
         # مدیریت تصویر
         image = validated_data.get('image', None)
