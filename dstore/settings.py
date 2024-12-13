@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-kq4we8i^(uh#rw=u!v!m__ok#ft(z_ai^d3e3z2q*i#f=6xk1d
 DEBUG = True
 AUTH_USER_MODEL='users.CustomUser'
 #########add ip 192.168.1.105
-ALLOWED_HOSTS = ['127.0.0.1','localhost:3000','store.local','192.168.1.100','store.pythone.local','192.168.1.105']
+ALLOWED_HOSTS = ['127.0.0.1','localhost:3000','store.local','192.168.1.101','store.pythone.local','192.168.1.105']
 
 
 # Application definition
@@ -188,7 +188,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # آدرس frontend شما
     'http://127.0.0.1:3000',
-    'http://192.168.1.100',
+    'http://192.168.1.101',
     'http://store.local',
 ]
 
