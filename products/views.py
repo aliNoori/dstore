@@ -231,48 +231,36 @@ class ProductAddView(APIView):
         return Response({"data":product_data},status=status.HTTP_200_OK)
 
 
-class ProductLikeView(APIView):
-
+class ToggleLikeView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 
     def post(self, request, id):
-       
-        product = Product.objects.get(id=id)  # فرض بر اینکه User مدل کاربران است
-        user=request.user
-
-        like=Like.objects.create(user=user,product=product)
-        
-        product_data = ProductResource(product).data
-            # بازگرداندن داده‌های سریالایز شده
-        return Response({"data":product_data},status=status.HTTP_200_OK)
-    
-class ProductDislikeView(APIView):
-
-    permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
-
-    def delete(self, request, id):
         try:
-            # پیدا کردن محصول بر اساس id
+            # پیدا کردن محصول بر اساس ID
             product = Product.objects.get(id=id)
             user = request.user
 
-            # پیدا کردن لایک مرتبط با کاربر و محصول
+            # بررسی وجود لایک
             like = Like.objects.filter(user=user, product=product).first()
 
             if like:
-                # حذف لایک
+                # حذف لایک در صورت وجود
                 like.delete()
-                # سریالایز کردن اطلاعات محصول
-                product_data = ProductResource(product).data
-                # بازگرداندن داده‌های سریالایز شده
-                return Response({"data": product_data}, status=status.HTTP_200_OK)
+                message = "Like removed successfully."
             else:
-                return Response({"error": "Like not found."}, status=status.HTTP_404_NOT_FOUND)
+                # ایجاد لایک در صورت عدم وجود
+                Like.objects.create(user=user, product=product)
+                message = "Like added successfully."
+
+            # سریالایز کردن اطلاعات محصول
+            product_data = ProductResource(product, context={'request': request}).data
+
+            # بازگرداندن پاسخ
+            return Response({"message": message, "data": product_data}, status=status.HTTP_200_OK)
 
         except Product.DoesNotExist:
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
-
 
 
 

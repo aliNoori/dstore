@@ -28,7 +28,7 @@ from orders.views.payment import  CallbackPaymentView, ProcessPaymentView
 from orders.views.paymentgateway import CreatePaymentGatewayView, PaymentGatewayListView, UpdatePaymentGatewayView
 from orders.views.paymentmethod import CreatePaymentMethodView, PaymentMethodListView, UpdatePaymentMethodView
 from orders.views.shippingmethod import CreateShippingMethodView, ShippingMethodListView, UpdateShippingMethodView
-from products.views import CategoriesListView, CategoryCreateView, CategoryDeleteView, CategoryShowView, CategoryUpdateView, ProductAddView, ProductCreateView, ProductDeleteView, ProductDislikeView, ProductLikeView, ProductReviewView, ProductShowView,ProductUpdateView, ProductsListView
+from products.views import CategoriesListView, CategoryCreateView, CategoryDeleteView, CategoryShowView, CategoryUpdateView, ProductAddView, ProductCreateView, ProductDeleteView, ProductDislikeView, ProductLikeView, ProductReviewView, ProductShowView,ProductUpdateView, ProductsListView, ToggleLikeView
 from users.views.addresslist import UserAddressListView
 from users.views.mycoupons import MyCouponsView
 from users.views.myscores import MyScoresView
@@ -95,8 +95,9 @@ urlpatterns = [
     path('api/product/delete/<int:id>', ProductDeleteView.as_view(), name='delete_product'),
     ###
     path('api/product/view/<int:id>', ProductAddView.as_view(), name='add_view_product'),
-    path('api/product/like/<int:id>', ProductLikeView.as_view(), name='add_like_product'),
-    path('api/product/dislike/<int:id>', ProductDislikeView.as_view(), name='remove_like_product'),
+    #path('api/product/like/<int:id>', ProductLikeView.as_view(), name='add_like_product'),
+    #path('api/product/dislike/<int:id>', ProductDislikeView.as_view(), name='remove_like_product'),
+    path('product/<int:id>/toggle-like/', ToggleLikeView.as_view(), name='toggle-like'),
     path('api/product/review/<int:id>', ProductReviewView.as_view(), name='review_product'),
 
 
