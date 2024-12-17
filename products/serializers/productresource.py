@@ -23,13 +23,13 @@ class ProductResource(serializers.ModelSerializer):
     likes=serializers.SerializerMethodField()
     histories=HistoryResource(many=True)
     reviews=ReviewResource(many=True)
-    isLiked = serializers.SerializerMethodField()  # فیلد جدید برای نشان دادن وضعیت لایک
+    #isLiked = serializers.SerializerMethodField()  # فیلد جدید برای نشان دادن وضعیت لایک
 
     image = CustomImageField(source='file.first')  # Assuming a user has a related file through `file_set`
    
     class Meta:
         model = Product
-        fields = ['id','sku','name', 'price','discount', 'stock', 'description','views','isLiked','likes','reviews','histories','image','category']
+        fields = ['id','sku','name', 'price','discount', 'stock', 'description','views','likes','reviews','histories','image','category']
 
     def get_image(self, obj):
               
