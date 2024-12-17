@@ -42,11 +42,4 @@ class ProductResource(serializers.ModelSerializer):
     def get_likes(self, obj):
         # تعداد لایک مربوط به این محصول را محاسبه کنید
         return obj.likes.count() 
-    
-    def get_isLiked(self, obj):
-        
-        user = self.context.get('request').user
-        if user.is_authenticated:
-            return Like.objects.filter(user=user, product=obj).exists()
-        return False
 
