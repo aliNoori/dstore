@@ -232,7 +232,7 @@ class ProductAddView(APIView):
 
 
 class ToggleLikeView(APIView):
-
+    
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 
     def post(self, request, id):
@@ -247,21 +247,28 @@ class ToggleLikeView(APIView):
             if like:
                 # حذف لایک در صورت وجود
                 like.delete()
+                isLiked = False
                 message = "Like removed successfully."
             else:
                 # ایجاد لایک در صورت عدم وجود
                 Like.objects.create(user=user, product=product)
+                isLiked = True
                 message = "Like added successfully."
 
             # سریالایز کردن اطلاعات محصول
-            product_data = ProductResource(product, context={'request': request}).data
+            product_data = ProductResource(product).data
 
-            # بازگرداندن پاسخ
-            return Response({"message": message, "data": product_data}, status=status.HTTP_200_OK)
+            # افزودن مقدار isLiked به اطلاعات محصول
+            product_data['isLiked'] = isLiked
+
+            # بازگرداندن کل اطلاعات محصول به همراه وضعیت isLiked
+            return Response({
+                "message": message,
+                "data": product_data
+            }, status=status.HTTP_200_OK)
 
         except Product.DoesNotExist:
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
-
 
 
 class ProductReviewView(APIView):
