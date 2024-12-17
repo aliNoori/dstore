@@ -97,11 +97,8 @@ urlpatterns = [
     path('api/product/view/<int:id>', ProductAddView.as_view(), name='add_view_product'),
     #path('api/product/like/<int:id>', ProductLikeView.as_view(), name='add_like_product'),
     #path('api/product/dislike/<int:id>', ProductDislikeView.as_view(), name='remove_like_product'),
-    path('product/<int:id>/toggle-like', ToggleLikeView.as_view(), name='toggle-like'),
-    path('api/product/review/<int:id>', ProductReviewView.as_view(), name='review_product'),
-
-
-   
+    path('api/product/<int:id>/toggle-like', ToggleLikeView.as_view(), name='toggle-like'),
+    path('api/product/review/<int:id>', ProductReviewView.as_view(), name='review_product'),   
     ####################    CATEGORY  API    ##################
     # Routes without middleware
     path('api/category/create', CategoryCreateView.as_view(), name='create_category'),
