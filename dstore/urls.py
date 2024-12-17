@@ -28,7 +28,7 @@ from orders.views.payment import  CallbackPaymentView, ProcessPaymentView
 from orders.views.paymentgateway import CreatePaymentGatewayView, PaymentGatewayListView, UpdatePaymentGatewayView
 from orders.views.paymentmethod import CreatePaymentMethodView, PaymentMethodListView, UpdatePaymentMethodView
 from orders.views.shippingmethod import CreateShippingMethodView, ShippingMethodListView, UpdateShippingMethodView
-from products.views import CategoriesListView, CategoryCreateView, CategoryDeleteView, CategoryShowView, CategoryUpdateView, ProductAddView, ProductCreateView, ProductDeleteView, ProductDislikeView, ProductLikeView, ProductReviewView, ProductShowView,ProductUpdateView, ProductsListView, ToggleLikeView
+from products.views import CategoriesListView, CategoryCreateView, CategoryDeleteView, CategoryShowView, CategoryUpdateView, ProductAddView, ProductCreateView, ProductDeleteView, ProductReviewView, ProductShowView,ProductUpdateView, ProductsListView, ToggleLikeView
 from users.views.addresslist import UserAddressListView
 from users.views.mycoupons import MyCouponsView
 from users.views.myscores import MyScoresView
