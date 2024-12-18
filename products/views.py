@@ -13,9 +13,7 @@ from products.models.reviews import Review
 from products.models.view import View
 from products.serializers.category import CategoryResource, CreateUpdateCategoryFormSerializer
 from products.serializers.createupdate import CreateUpdateProductFormSerializer
-
 from products.serializers.productresource import ProductResource
-from products.serializers.reviewresource import ReviewResource
 from users.decorators.checkpermission import PermissionMixin
 
 
@@ -326,13 +324,15 @@ class ProductReviewView(APIView):
             product = Product.objects.get(id=id)
 
             # بازیابی لیست نظرات مربوط به محصول
-            reviews = Review.objects.filter(product=product)
+            #reviews = Review.objects.filter(product=product)
+            # استفاده از ReviewResource برای سریالایز کردن نظرات
+            #review_data = ReviewResource(reviews, many=True).data
 
             # استفاده از ReviewResource برای سریالایز کردن نظرات
-            review_data = ReviewResource(reviews, many=True).data
+            product_data = ProductResource(product).data
 
             # بازگشت پاسخ نظرات
-            return Response({"reviews": review_data}, status=status.HTTP_200_OK)
+            return Response({"data": product_data}, status=status.HTTP_200_OK)
 
         except Product.DoesNotExist:
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)   
