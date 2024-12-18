@@ -15,6 +15,7 @@ from products.serializers.category import CategoryResource, CreateUpdateCategory
 from products.serializers.createupdate import CreateUpdateProductFormSerializer
 
 from products.serializers.productresource import ProductResource
+from products.serializers.reviewresource import ReviewResource
 from users.decorators.checkpermission import PermissionMixin
 
 
@@ -283,7 +284,7 @@ class ProductReviewView(APIView):
             user = request.user
 
             # بررسی اینکه آیا کاربر محصول را خریداری کرده است
-            has_purchased = Order.objects.filter(user=user, details__product=product, status='completed').exists()
+            has_purchased = Order.objects.filter(user=user, details__product=product, status='processing').exists()
 
             if not has_purchased:
                 return Response({"error": "You must purchase the product before reviewing it."}, status=status.HTTP_400_BAD_REQUEST)
@@ -316,3 +317,22 @@ class ProductReviewView(APIView):
 
         except Product.DoesNotExist:
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
+
+
+    # متد GET برای دریافت لیست نظرات
+    def get(self, request, id):
+        try:
+            # پیدا کردن محصول بر اساس id
+            product = Product.objects.get(id=id)
+
+            # بازیابی لیست نظرات مربوط به محصول
+            reviews = Review.objects.filter(product=product)
+
+            # استفاده از ReviewResource برای سریالایز کردن نظرات
+            review_data = ReviewResource(reviews, many=True).data
+
+            # بازگشت پاسخ نظرات
+            return Response({"reviews": review_data}, status=status.HTTP_200_OK)
+
+        except Product.DoesNotExist:
+            return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)   
