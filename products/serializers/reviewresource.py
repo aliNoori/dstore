@@ -7,9 +7,7 @@ from users.serializers.userresource import UserResource
 class ReviewResource(serializers.ModelSerializer):
 
     user = UserResource()  # سریالایزر کامل برای کاربر
-    product = ProductResource()  # سریالایزر کامل برای محصول
-
 
     class Meta:
         model = Review
-        fields = ['id','rating','review','user','product']
+        fields = ['id','rating','review','user']
