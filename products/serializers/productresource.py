@@ -1,6 +1,4 @@
 from rest_framework import serializers
-
-from products.models.like import Like
 from products.models.product import Product
 from products.serializers.category import CategoryResource
 from products.serializers.historiyresource import HistoryResource
