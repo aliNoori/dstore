@@ -5,6 +5,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from files.models.file import File
+from orders.models.order import Order
 from products.models.category import Category
 from products.models.like import Like
 from products.models.product import Product
@@ -232,7 +233,7 @@ class ProductAddView(APIView):
 
 
 class ToggleLikeView(APIView):
-    
+
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 
     def post(self, request, id):
@@ -271,24 +272,54 @@ class ToggleLikeView(APIView):
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
 
 
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
+from rest_framework import status
+from .models import Review, Product
+from .serializers import ProductResource
+
 class ProductReviewView(APIView):
 
     permission_classes = [IsAuthenticated]  # Middleware (Authentication Required)
 
     def post(self, request, id):
-    
-        # پیدا کردن محصول بر اساس id
-        product = Product.objects.get(id=id)
-        user = request.user
+        try:
+            # پیدا کردن محصول بر اساس id
+            product = Product.objects.get(id=id)
+            user = request.user
 
-        review=Review.objects.create(
-            user=user,
-            product=product,
-           rating=request.data.get('rating'),  # گرفتن امتیاز از داده‌های درخواست
-           review=request.data.get('review')  # گرفتن متن نظر از داده‌های درخواست
+            # بررسی اینکه آیا کاربر محصول را خریداری کرده است
+            has_purchased = Order.objects.filter(user=user, details__product=product, status='completed').exists()
 
-        )
-           
-        product_data = ProductResource(product).data
-        # بازگرداندن داده‌های سریالایز شده
-        return Response({"data": product_data}, status=status.HTTP_200_OK)
+            if not has_purchased:
+                return Response({"error": "You must purchase the product before reviewing it."}, status=status.HTTP_400_BAD_REQUEST)
+
+
+            # بررسی اینکه آیا کاربر قبلاً برای این محصول نظر داده است
+            existing_review = Review.objects.filter(user=user, product=product).first()
+
+            if existing_review:
+                # اگر نظر قبلاً وجود داشت، آن را به‌روزرسانی می‌کنیم
+                existing_review.rating = request.data.get('rating')
+                existing_review.review = request.data.get('review')
+                existing_review.save()  # ذخیره تغییرات
+                message = "Review updated successfully."
+            else:
+                # اگر نظر قبلاً وجود نداشت، نظر جدید ایجاد می‌کنیم
+                Review.objects.create(
+                    user=user,
+                    product=product,
+                    rating=request.data.get('rating'),
+                    review=request.data.get('review'),
+                )
+                message = "Review added successfully."
+
+            # سریالایز کردن داده‌های محصول برای بازگشت
+            product_data = ProductResource(product).data
+
+            # بازگشت پاسخ به کلاینت
+            return Response({"message": message, "data": product_data}, status=status.HTTP_200_OK)
+
+        except Product.DoesNotExist:
+            return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
