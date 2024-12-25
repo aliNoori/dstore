@@ -22,6 +22,9 @@ class InvoiceCreate(APIView):
         # بررسی وجود سفارش با استفاده از شماره سفارش
         order = Order.objects.filter(user=user, order_number=order_number).first()
 
+        print("order")
+        print(order)
+
         if not order:
             return Response({"message": "Order not found"}, status=status.HTTP_404_NOT_FOUND)
 
