@@ -31,12 +31,15 @@ class InvoiceCreate(APIView):
         shipping_cost = Decimal('0.00')
         shipping_method = None
         shipping_method_id = order.shipping_method_id
+        print("shipping_method_id")
         print(shipping_method_id)
         if shipping_method_id:
             shipping_method = ShippingMethod.objects.filter(id=shipping_method_id).first()
+            print("shipping_method")
             print(shipping_method)
         if shipping_method:
             shipping_cost = shipping_method.cost
+            print("shipping_cost")
             print(shipping_cost)
 
         # محاسبه مبلغ کل فاکتور
