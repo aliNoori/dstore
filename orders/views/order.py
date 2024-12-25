@@ -132,6 +132,7 @@ class AddShippingToOrderView(APIView):
         # به‌روزرسانی فیلد shipping_method_id روی نمونه order
         order.shipping_method_id = shipping_id
         order.save()
+        order.refresh_from_db()
         print(f"Shipping method ID after save: {order.shipping_method_id}")
 
         order_data = OrderResource(order).data
