@@ -315,24 +315,3 @@ class ProductReviewView(APIView):
 
         except Product.DoesNotExist:
             return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)
-
-
-    # متد GET برای دریافت لیست نظرات
-    def get(self, request, id):
-        try:
-            # پیدا کردن محصول بر اساس id
-            product = Product.objects.get(id=id)
-
-            # بازیابی لیست نظرات مربوط به محصول
-            #reviews = Review.objects.filter(product=product)
-            # استفاده از ReviewResource برای سریالایز کردن نظرات
-            #review_data = ReviewResource(reviews, many=True).data
-
-            # استفاده از ReviewResource برای سریالایز کردن نظرات
-            product_data = ProductResource(product).data
-
-            # بازگشت پاسخ نظرات
-            return Response({"data": product_data}, status=status.HTTP_200_OK)
-
-        except Product.DoesNotExist:
-            return Response({"error": "Product not found."}, status=status.HTTP_404_NOT_FOUND)   
